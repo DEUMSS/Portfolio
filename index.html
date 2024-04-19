@@ -54,7 +54,7 @@
                     <li><a class="smoothscroll"  href="#pres" title="about">Présentation</a></li>
                     <li><a class="smoothscroll"  href="#entreprise" title="about">Entreprise</a></li>
                     <li><a class="smoothscroll"  href="#projets" title="works">Projets</a></li>
-                    <li><a class="smoothscroll"  href="#tab_synt" title="clients">Tableau de synthèse</a></li>
+                    <li><a class="smoothscroll"  href="#veille" title="clients">Veilles technologiques</a></li>
                     <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
                 </ul>
 
@@ -91,7 +91,7 @@
             </div>
 
             <div class="home-content__scroll">
-                <a href="#about" class="scroll-link smoothscroll">
+                <a href="#pres" class="scroll-link smoothscroll">
                     <span>Page suivante</span>
                 </a>
             </div>
@@ -117,7 +117,7 @@
         <div class="row about-desc" data-aos="fade-up">
             <div class="col-full">
                 <p>
-                    Je suis Damien Pizarro, étudiant en deuxième année de BTS SIO option SLAM. J'ai choisi de suivre cette formation après
+                    Je suis Damien Pizarro, étudiant en deuxième année de BTS SIO option SLAM en alternance. J'ai choisi de suivre cette formation après
                     une première année de DUT Réseaux et Télécommunication durant laquelle j'ai pu découvrir le JAVA. Depuis cela j'ai
                     toujours voulu apprendre à développer. Je souhaite intégrer, l'année prochaine, la licence MIASHS parcours MIAGE pour
                     continuer de m'améliorer dans ce domaine.               
@@ -127,7 +127,7 @@
 
         <div class="row clients-outer" data-aos="fade-up">
             <div class="col-full" style="display: flex;justify-content: center;">  
-                <a href="CV.html" title="" class="clients__slide"><img src="images/icone_CV.png" style="width: 20%;" /></a>
+                <a href="CV.html" title="" class="clients__slide" target="_blank"><img src="images/icone_CV.png" style="width: 20%;"/></a>
             </div> <!-- end col-full -->
         </div> <!-- end clients-outer -->
 
@@ -205,7 +205,7 @@
 
     <!-- clients
     ================================================== -->
-    <section id="tab_synt" class="s-clients">
+    <section id="projets" class="s-clients">
 
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
@@ -213,44 +213,6 @@
                 <h1 class="display-2">Quelques projets réalisaient en cours et en entreprise</h1>
             </div>
         </div> <!-- end section-header -->
-
-        <div class="row clients-outer" data-aos="fade-up">
-            <div class="col-full">
-                <div class="clients">
-                    
-                    <a href="call.html" class="thumb-link clients__slide" data-size="1050x700">
-                        <img src="images/appel.png" />
-                    </a>
-                    <a href="FileTransfer.html " class="thumb-link clients__slide" data-size="1050x700">
-                        <img src="images/transfer.png" />
-                    </a>
-                    <a href="planning.html" class="thumb-link clients__slide" data-size="1050x700">
-                        <img src="images/calendrier.png" />
-                    </a>
-                    <a href="lien.html" class="thumb-link clients__slide" data-size="1050x700">
-                        <img src="images/lien.png" />
-                    </a>
-                    <a href="calculatrice.html" class="thumb-link clients__slide" data-size="1050x700">
-                        <img src="images/calculatrice.png" />
-                    </a>
-                    <a href="blog.html" class="thumb-link clients__slide" data-size="1050x700">
-                        <img src="images/blog.png" />
-                    </a>
-                    <a href="learnit.html" class="thumb-link clients__slide" data-size="1050x700">
-                        <img src="images/lecon.png" />
-                    </a>
-                    <!-- <a href="note_de_frais.html" class="thumb-link clients__slide" data-size="1050x700">
-                        <img src="images/argent.png" />
-                    </a> -->
-
-
-
-                    <a href="tableau.html" class="thumb-link clients__slide" data-size="1050x700">
-                        <img src="images/tableau.png" />
-                    </a>
-                </div> <!-- end clients -->
-            </div> <!-- end col-full -->
-        </div> <!-- end clients-outer -->
 
         <div class="row clients-testimonials" data-aos="fade-up">
             <div class="col-full">
@@ -263,11 +225,16 @@
                             <span class="testimonials_pos">Projet d'entreprise</span>
                         </div>
                         
-                        <p style="font-size: 100%;">
+                        <p style="font-size: 120%;">
                             Ce projet est un site web dédié à nos entreprises clientes et qui leur permet de connaitre les statistiques
                             de notre call center sur les appels et les ventes réaliser pour leur entreprise            
                         </p>
-                    </div>
+                        <div class="row" style="display: grid;">
+                            <div class="col-6" style="justify-self: center;">
+                                <a class="btn btn--stroke full-width" href="call.html" target="_blank">Voir le projet</a>
+                            </div>    
+                        </div>
+                    </div> 
 
                     <div class="testimonials__slide">
 
@@ -276,15 +243,20 @@
                             <span class="testimonials_pos">Projet d'entreprise</span>
                         </div>
 
-                        <p style="font-size: 100%;">  
+                        <p style="font-size: 120%;">  
                             Ce projet sert à notre entreprise et à nos clients de pouvoir transmettre des fichiers en respectant le RGPD.
                             Nous avons une application sur laquelle on retrouve la gestion des utilisateurs, la gestion des fichiers, et la
                             gestion des paramètres que nous utilisons pour transmettre les fichiers (durée de rétention des fichiers,
                             gestion des adresses mail de réception du récapitulatif automatique des fichiers non récupérés).
-                            Les clients eux, se rendent sur un site internet où, après leur inscription ils retrouveront leurs fichiers,
+                            Les clients eux, se rendent sur un site internet où, après leur inscription, ils retrouveront leurs fichiers,
                             pourront les télécharger, ou même nous en transmettre aussi selon notre choix (paramètre que nous déterminons
                             à la création de leur compte).     
                         </p>
+                        <div class="row" style="display: grid;">
+                            <div class="col-6" style="justify-self: center;">
+                                <a class="btn btn--stroke full-width" href="FileTransfer.html" target="_blank">Voir le projet</a>
+                            </div>    
+                        </div>
                     </div>
 
                     <div class="testimonials__slide">
@@ -294,11 +266,16 @@
                             <span class="testimonials_pos">Projet d'entreprise</span>
                         </div>
 
-                        <p style="font-size: 100%;">  
+                        <p style="font-size: 120%;">  
                             Projet sur lequelle j'ai ajouté la fonctionalité permetant de calculer et de créer un document qui récapitule les
                             heures manquées (vacances, arrêts, abscences) des employés de l'entreprise pour faciliter le calcul des salaires
                             à la fin du mois.
                         </p>
+                        <div class="row" style="display: grid;">
+                            <div class="col-6" style="justify-self: center;">
+                                <a class="btn btn--stroke full-width" href="planning.html" target="_blank">Voir le projet</a>
+                            </div>    
+                        </div>
                     </div>
 
                     <div class="testimonials__slide">
@@ -308,12 +285,17 @@
                             <span class="testimonials_pos">Projet d'entreprise</span>
                         </div>
 
-                        <p style="font-size: 100%;">
+                        <p style="font-size: 120%;">
                             Ce projet est une application utiliser par notre entreprise afin de lier automatiquement les appels reçus et
                             les commandes passées pendant l'appel en fonction de la date et l'heure de la commande. Elle permet aussi, une 
                             fois l'association faite, de rechercher les appels et les commandes restantes qui sont des anomalies
                             (date/heure de l'appel ou de la commande mal renseignée par le call-center)
                         </p>
+                        <div class="row" style="display: grid;">
+                            <div class="col-6" style="justify-self: center;">
+                                <a class="btn btn--stroke full-width" href="lien.html" target="_blank">Voir le projet</a>
+                            </div>    
+                        </div>
                     </div>
 
                     <div class="testimonials__slide">
@@ -323,9 +305,14 @@
                             <span class="testimonials_pos">Projet de formation</span>
                         </div>
 
-                        <p style="font-size: 100%;">
+                        <p style="font-size: 120%;">
                             Projet de début de formation qui consiste à créer une calculatrice fonctionnelle avec une interface soignée
                         </p>
+                        <div class="row" style="display: grid;">
+                            <div class="col-6" style="justify-self: center;">
+                                <a class="btn btn--stroke full-width" href="calculatrice.html" target="_blank">Voir le projet</a>
+                            </div>    
+                        </div>
                     </div>
 
                     <div class="testimonials__slide">
@@ -335,13 +322,18 @@
                             <span class="testimonials_pos">Projet de formation</span>
                         </div>
 
-                        <p style="font-size: 100%;">
+                        <p style="font-size: 120%;">
                            Projet réalisé pendant ma formation qui est un blog avec un espace d'inscription et de connexion, la possibilité
                            de commenter un poste ou d'en créer un. Tout le projet à était réaliser en MVC
                         </p>
+                        <div class="row" style="display: grid;">
+                            <div class="col-6" style="justify-self: center;">
+                                <a class="btn btn--stroke full-width" href="blog.html" target="_blank">Voir le projet</a>
+                            </div>    
+                        </div>
                     </div>
 
-                    <!--
+
                     <div class="testimonials__slide">
 
                         <div class="testimonials__info">
@@ -354,8 +346,12 @@
                             être rembourser des frais d'une association sportive pour pouvoir les déduire des impôts. Ce site se compose d'un
                             formulaire d'inscription et de connexion puis un formulaire de remplissage de note de frais
                         </p>
+                        <div class="row" style="display: grid;">
+                            <div class="col-6" style="justify-self: center;">
+                                <a class="btn btn--stroke full-width" href="Note_de_frais.html" target="_blank">Voir le projet</a>
+                            </div>    
+                        </div>
                     </div>
-                    -->
 
                     <div class="testimonials__slide">
 
@@ -364,172 +360,107 @@
                             <span class="testimonials_pos">Projet de formation</span>
                         </div>
 
-                        <p style="font-size: 100%;">
+                        <p style="font-size: 120%;">
                             Application d'apprentissage en ligne efféctué avec la méthode scrum qui permet aux utilisateurs de créer
                             leur compte ou de se connecter et de suivre une formation. Elle permet aussi de créer un administrateur
                             qui peut gérer les formations ou les autres utilisateurs
                         </p>
+                        <div class="row" style="display: grid;">
+                            <div class="col-6" style="justify-self: center;">
+                                <a class="btn btn--stroke full-width" href="learnit.html" target="_blank">Voir le projet</a>
+                            </div>    
+                        </div>
+                    </div>
+
+                    <div class="testimonials__slide">
+
+                        <div class="testimonials__info">
+                            <span class="testimonials__name">Tableau de synthèse</span>
+                            <span class="testimonials_pos">récapitulatif</span>
+                        </div>
+
+                        <div class="row" style="display: grid;">
+                            <div class="col-8" style="justify-self: center; margin-top : 10px;">
+                                <a class="btn btn--primary full-width" href="tableau.html" target="_blank">Voir le tableau de synthèse</a>
+                            </div>    
+                        </div>
                     </div>
 
                 </div><!-- end testimonials -->
                 
             </div> <!-- end col-full -->
         </div> <!-- end client-testimonials -->
-
     </section> <!-- end s-clients -->
 
-
+    
     <!-- contact
-    ================================================== --
-    <section id="contact" class="s-contact">
+    ================================================== -->
+    <section id="veille" class="s-contact">
 
-        <div class="overlay"></div>
+        <!--div class="overlay"></div>-->
         <div class="contact__line"></div>
 
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead">Contact Us</h3>
-                <h1 class="display-2 display-2--light">Reach out for a new project or just say hello</h1>
+                <h3 class="subhead">Veilles</h3>
+                <h1 class="display-2 display-2--light">Mes veilles technologiques sélectionnée</h1>
             </div>
         </div>
-
-        <div class="row contact-content" data-aos="fade-up">
-            
-            <div class="contact-primary">
-
-                <h3 class="h6">Send Us A Message</h3>
-
-                <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
-                    <fieldset>
-    
-                    <div class="form-field">
-                        <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
-                    </div>
-                    <div class="form-field">
-                        <button class="full-width btn--primary">Submit</button>
-                        <div class="submit-loader">
-                            <div class="text-loader">Sending...</div>
-                            <div class="s-loader">
-                                <div class="bounce1"></div>
-                                <div class="bounce2"></div>
-                                <div class="bounce3"></div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    </fieldset>
-                </form>
-
-                <!-- contact-warning -
-                <div class="message-warning">
-                    Something went wrong. Please try again.
-                </div> 
-            
-                <!-- contact-success -
-                <div class="message-success">
-                    Your message was sent, thank you!<br>
+        <div class="row">
+            <div class="col-six tab-full">
+                <h3 style="color: white;">TypeScript</h3>
+                <p>
+                    <img width="120" height="120" class="pull-left" alt="sample-image" src="images/typescript.png">
+                    TypeScript est un langage de programmation développé par Microsoft en 2012. Son ambition principale est
+                    d’améliorer la productivité de développement d’applications complexes.
+                    C’est un langage open source, développé comme un sur-ensemble de Javascript.
+                    Cependant, ce langage introduit des fonctionnalités optionnelles comme le typage ou la programmation orientée objet.
+                </p>
+                <a href="https://www.lemondeinformatique.fr/actualites/lire-typescript-39-au-stade-de-release-candidate-78973.html" target="_blank">
+                    Résolution des bugs et des temps de latence lors de la compilation. ->
+                </a>
+                <a href="https://www.lemondeinformatique.fr/actualites/lire-en-se-restructurant-typescript-50-s-adapte-aux-modules-ecmascript-89876.html" target="_blank">
+                    Amélioration des performances avec l'utilisation des ECMAScript. ->
+                </a>
+            </div>
+            <div class="col-six tab-full">
+                <h3 style="color: white;">SceneBuilder</h3>
+                <p>
+                    <img width="120" height="120" class="pull-left" alt="sample-image" src="images/SceneBuilderLogo.png">
+                    Scene Builder est un outil interactif de conception d'interface graphique pour JavaFX. Créé par Oracle, il permet de
+                    construire rapidement des interfaces utilisateurs sans avoir besoin de coder.
+                    Le logiciel s'utilise avec la technique du glisser/déposer: un panneau latéral situé à gauche de la fenêtre permet
+                    à l'utilisateur de sélectionner et positionner un composant dans la hiérarchie des composants ou sur la vue centrale
+                    affichant le rendu. Un panneau latéral positionné à droite de la fenêtre permet quant à lui de définir les
+                    caractéristiques du composant sélectionné par l'utilisateur.
+                </p>
+                <div class="row" style="margin-left: 3px;">
+                    <a href="https://www.infoq.com/fr/news/2021/04/scene-builder-16/" target="_blank">
+                        Publication de SceneBuilder par Gluon. ->
+                    </a>
                 </div>
-
-            </div> <!-- end contact-primary 
-
-            <div class="contact-secondary">
-                <div class="contact-info">
-
-                    <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
-
-                    <div class="cinfo">
-                        <h5>Where to Find Us</h5>
-                        <p>
-                            1600 Amphitheatre Parkway<br>
-                            Mountain View, CA<br>
-                            94043 US
-                        </p>
-                    </div>
-
-                    <div class="cinfo">
-                        <h5>Email Us At</h5>
-                        <p>
-                            contact@glintsite.com<br>
-                            info@glintsite.com
-                        </p>
-                    </div>
-
-                    <div class="cinfo">
-                        <h5>Call Us At</h5>
-                        <p>
-                            Phone: (+63) 555 1212<br>
-                            Mobile: (+63) 555 0100<br>
-                            Fax: (+63) 555 0101
-                        </p>
-                    </div>
-
-                    <ul class="contact-social">
-                        <li>
-                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                        </li>
-                    </ul> <!-- end contact-social 
-
-                </div> <!-- end contact-info 
-            </div> <!-- end contact-secondary 
-
-        </div> <!-- end contact-content 
-
+                <div class="row" style="margin-left: 3px;">
+                    <a href="https://www.lemondeinformatique.fr/actualites/lire-en-se-restructurant-typescript-50-s-adapte-aux-modules-ecmascript-89876.html" target="_blank">
+                        Addaptation de SceneBuilder pour IOS et Android. ->
+                    </a>
+                </div>
+            </div>
+        </div>
     </section> <!-- end s-contact -->
 
 
     <!-- footer
-    ================================================== -
+    ================================================== -->
     <footer>
 
-        <div class="row footer-main">
-
-            <div class="col-six tab-full left footer-desc">
-
-                <div class="footer-logo"></div>
-                Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Quaerat voluptas autem necessitatibus vitae aut.
-
-            </div>
-
-            <div class="col-six tab-full right footer-subscribe">
-
-                <h4>Get Notified</h4>
-                <p>Quia quo qui sed odit. Quaerat voluptas autem necessitatibus vitae aut non alias sed quia. Ut itaque enim optio ut excepturi deserunt iusto porro.</p>
-
-                <div class="subscribe-form">
-                    <form id="mc-form" class="group" novalidate="true">
-                        <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
-                        <input type="submit" name="subscribe" value="Subscribe">
-                        <label for="mc-email" class="subscribe-message"></label>
-                    </form>
-                </div>
-
-            </div>
-
-        </div> <!-- end footer-main -->
+        <div class="col-six tab-full">
+            <a href="https://github.com/DEUMSS?tab=repositories" target="_blank"><h4>Mon GitHub</h4></a>
+        </div>
+        <div class="col-six tab-full left">
+            <a href="https://www.linkedin.com/in/damien-pizarro/" target="_blank"><h4>Mon LinkedIn</h4></a>
+        </div>
 
         <div class="row footer-bottom">
-
             <div class="col-twelve">
                 <div class="copyright">
                     <span>© Copyright Glint 2017</span> 
